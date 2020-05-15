@@ -1,3 +1,5 @@
+#MODIFICA INGREDIENTES DE UN PLATO PEDIDO 
+
 def info_plato(): #Ingredientes personalizables del plato
     print ("\n\nEl plato " + plato["Nombre"] + " lleva:", end="")
     for i in range(0, len(plato["Ingred_personalizables"])):
